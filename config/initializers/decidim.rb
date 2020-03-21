@@ -11,8 +11,8 @@ Decidim.configure do |config|
   # Geocoder configuration
   # config.geocoder = {
   #   static_map_url: "https://image.maps.cit.api.here.com/mia/1.6/mapview",
-  #   here_app_id: Rails.application.secrets.geocoder[:here_app_id],
-  #   here_app_code: Rails.application.secrets.geocoder[:here_app_code]
+  #   here_app_id: Rails.application.credentials.geocoder[:here_app_id],
+  #   here_app_code: Rails.application.credentials.geocoder[:here_app_code]
   # }
 
   # Custom resource reference generator method
@@ -118,9 +118,9 @@ Decidim.configure do |config|
   # Decidim docs at docs/services/etherpad.md in order to set it up.
   #
   # config.etherpad = {
-  #   server: Rails.application.secrets.etherpad[:server],
-  #   api_key: Rails.application.secrets.etherpad[:api_key],
-  #   api_version: Rails.application.secrets.etherpad[:api_version]
+  #   server: Rails.application.credentials.etherpad[:server],
+  #   api_key: Rails.application.credentials.etherpad[:api_key],
+  #   api_version: Rails.application.credentials.etherpad[:api_version]
   # }
 end
 
