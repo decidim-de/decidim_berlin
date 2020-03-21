@@ -20,6 +20,11 @@ group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
   gem "decidim-dev", "0.20.0"
+  gem "capistrano", "~> 3.10", require: false
+  gem "capistrano-rails", "~> 1.4", require: false
+  gem 'capistrano-rbenv', '~> 2.1', require: false
+  gem 'capistrano-bundler', '~> 1.6', require: false
+  gem 'capistrano-passenger'
 end
 
 group :development do
