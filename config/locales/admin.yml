@@ -38,7 +38,7 @@ de:
       organization:
         address: SMTP Hostname
         alert_color: Benachrichtigung
-        badges_enabled: Abzeichen aktivieren
+        badges_enabled: Badges aktivieren
         cta_button_path: Call To Action Schaltfläche Pfad
         cta_button_text: Call To Action Schaltfläche Text
         customize_welcome_notification: Willkommens-Benachrichtigung anpassen
@@ -384,7 +384,7 @@ de:
         participants: Teilnehmer
         scope_types: Bereichstypen
         scopes: Bereiche
-        settings: die Einstellungen
+        settings: Einstellungen
         static_pages: Seiten
         user_groups: Benutzergruppen
         users: Benutzer
