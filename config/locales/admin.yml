@@ -375,7 +375,7 @@ de:
         area_types: Bereichstypen
         areas: Bereiche
         configuration: Aufbau
-        dashboard: Instrumententafel
+        dashboard: Dashboard
         help_sections: Hilfeabschnitte
         homepage: Startseite
         impersonations: Identitätswechsel
@@ -710,7 +710,7 @@ de:
         area_types: Bereichstypen
         areas: Bereiche
         authorization_workflows: Verifizierungsmethoden
-        dashboard: Instrumententafel
+        dashboard: Dashboard
         impersonatable_users: Überschaubare Benutzer
         impersonations: Benutzerverwaltung
         participants: Benutzer

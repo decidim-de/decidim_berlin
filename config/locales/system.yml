@@ -31,7 +31,7 @@ de:
           title: Standardtitel für %{page}
       menu:
         admins: Admins
-        dashboard: Instrumententafel
+        dashboard: Dashboard
         organizations: Organisationen
       models:
         admin:
@@ -87,4 +87,4 @@ de:
           no_organization_warning_html: Sie müssen eine Organisation erstellen, um zu beginnen. Stellen Sie sicher, dass Sie %{guide} lesen, bevor Sie fortfahren.
           our_getting_started_guide: unser Leitfaden für Anfänger
       titles:
-        dashboard: Instrumententafel
+        dashboard: Dashboard
