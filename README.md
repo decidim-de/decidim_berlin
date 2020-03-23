@@ -1,12 +1,11 @@
 # decidim_berlin
 
-Free Open-Source participatory democracy, citizen participation and open government for cities and organizations
-
+Free Open-Source participatory democracy, citizen participation and open government for Berlin and its organizations.
 This is the open-source repository for decidim_berlin, based on [Decidim](https://github.com/decidim/decidim).
 
 ## Setting up the application
 
-You will need to do some steps before having the app working properly once you've deployed it:
+You will need to do some steps before having the app working properly on your machine:
 
 1. Open a Rails console in the server: `bundle exec rails console`
 1. Create a System Admin user:
