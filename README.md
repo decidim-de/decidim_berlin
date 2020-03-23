@@ -45,6 +45,8 @@ The exception to gems that are just copied source code are gems that use C bindi
 
 Gems play a more important role for this app than in most other Rails apps, because all (maybe this will be "most" in the future) of our views and the database structure rely on the decidim gems.
 
+See https://bundler.io and https://guides.rubygems.org/rubygems-basics for more information.
+
 ## Deployment
 
 We use Capistrano (https://github.com/capistrano/capistrano) for deployment.
