@@ -11,7 +11,7 @@ gem "decidim-conferences", "0.20.0"
 
 gem "bootsnap", "~> 1.3"
 
-gem "puma", "~> 3.12.2"
+gem "puma", "~> 3.12.4"
 gem "uglifier", "~> 4.1"
 
 gem "faker", "~> 1.9"
