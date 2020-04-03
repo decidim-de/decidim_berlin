@@ -46,6 +46,10 @@ Gems play a more important role for this app than in most other Rails apps, beca
 
 See https://bundler.io and https://guides.rubygems.org/rubygems-basics for more information.
 
+## Activating modules
+
+Possible modules are listed at https://github.com/decidim/decidim. Find the one you need, click on the link and follow the instructions in your development environment. If everything checks out commit your changes and start the deployment as described below.
+
 ## Deployment
 
 We use Capistrano (https://github.com/capistrano/capistrano) for deployment.
