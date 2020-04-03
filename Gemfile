@@ -12,6 +12,11 @@ gem 'faker', '~> 1.9'
 gem 'puma', '~> 3.12.4'
 gem 'uglifier', '~> 4.1'
 
+group :production do
+  gem 'daemons'
+  gem 'delayed_job_active_record'
+end
+
 group :development, :test do
   gem 'byebug', '~> 11.0', platform: :mri
   gem 'capistrano', '~> 3.10', require: false
