@@ -54,7 +54,7 @@ Rails.application.configure do
   config.log_level = :debug
 
   # Prepend all log lines with the following tags.
-  config.log_tags = [ :request_id ]
+  config.log_tags = [:request_id]
 
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
@@ -79,21 +79,21 @@ Rails.application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
   config.action_mailer.smtp_settings = {
-    :address        => Rails.application.credentials.smtp_address,
-    :port           => Rails.application.credentials.smtp_port,
-    :authentication => Rails.application.credentials.smtp_authentication,
-    :user_name      => Rails.application.credentials.smtp_username,
-    :password       => Rails.application.credentials.smtp_password,
-    :domain         => Rails.application.credentials.smtp_domain,
-    :enable_starttls_auto => Rails.application.credentials.smtp_starttls_auto,
-    :openssl_verify_mode => 'none'
+    address: Rails.application.credentials.smtp_address,
+    port: Rails.application.credentials.smtp_port,
+    authentication: Rails.application.credentials.smtp_authentication,
+    user_name: Rails.application.credentials.smtp_username,
+    password: Rails.application.credentials.smtp_password,
+    domain: Rails.application.credentials.smtp_domain,
+    enable_starttls_auto: Rails.application.credentials.smtp_starttls_auto,
+    openssl_verify_mode: 'none'
   }
 
   # Use a different logger for distributed setups.
   # require 'syslog/logger'
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
 
-  if ENV["RAILS_LOG_TO_STDOUT"].present?
+  if ENV['RAILS_LOG_TO_STDOUT'].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
