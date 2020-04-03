@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 Decidim.configure do |config|
-  config.application_name = "Decidim-Berlin"
-  config.mailer_sender = "change-me@domain.org"
+  config.application_name = 'Decidim-Berlin'
+  config.mailer_sender = 'info@decidim.de'
 
   # Change these lines to set your preferred locales
   config.available_locales = [:de, :en]
