@@ -4,8 +4,8 @@ source 'https://rubygems.org'
 
 ruby RUBY_VERSION
 
-gem 'decidim', '0.20.0'
-gem 'decidim-conferences', '0.20.0'
+gem 'decidim', '0.20.1'
+gem 'decidim-conferences', '0.20.1'
 
 gem 'bootsnap', '~> 1.3'
 gem 'faker', '~> 1.9'
@@ -24,7 +24,7 @@ group :development, :test do
   gem 'capistrano-passenger'
   gem 'capistrano-rails', '~> 1.4', require: false
   gem 'capistrano-rbenv', '~> 2.1', require: false
-  gem 'decidim-dev', '0.20.0'
+  gem 'decidim-dev', '0.20.1'
 end
 
 group :development do
