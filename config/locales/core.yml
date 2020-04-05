@@ -176,15 +176,15 @@ de:
           help_text: Überprüfen Sie die Änderungen und akzeptieren Sie diese Änderung oder lehnen Sie diese ab. Eine Benachrichtigung wird an den / die Verfasser gesendet.
         announcement:
           accepted: |-
-            Durch diese Änderung für die %{amendable_type} %{amendable_link} wurde
+            Durch diese Änderung für die %{amendable_type} %{proposal_link} wurde
             auf akzeptiert <strong>%{announcement_date}</strong>.
           evaluating: |-
-            Diese Änderung für die %{amendable_type} %{amendable_link}
+            Diese Änderung für die %{amendable_type} %{proposal_link}
             wird bewertet.
           promoted: Promoted to a %{amendable_type}.
-          rejected: "Diese Änderung für die %{amendable_type} %{amendable_link}\nwurde am <strong>%{announcement_date}</strong>abgelehnt."
+          rejected: "Diese Änderung für die %{amendable_type} %{proposal_link}\nwurde am <strong>%{announcement_date}</strong>abgelehnt."
           withdrawn: |-
-            Diese Änderung für die %{amendable_type} %{amendable_link}
+            Diese Änderung für die %{amendable_type} %{proposal_link}
             wurde vom Autor zurückgezogen.
       new:
         amendment_author: Änderungsautor
