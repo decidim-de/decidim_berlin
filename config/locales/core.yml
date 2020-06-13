@@ -177,7 +177,7 @@ de:
         announcement:
           accepted: |-
             Durch diese Änderung für die %{amendable_type} %{proposal_link} wurde
-            auf akzeptiert <strong>%{announcement_date}</strong>.
+            auf akzeptiert <strong>%{date}</strong>.
           evaluating: |-
             Diese Änderung für die %{amendable_type} %{proposal_link}
             wird bewertet.
