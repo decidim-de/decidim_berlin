@@ -24,7 +24,14 @@ set :deploy_to, '/home/decidim'
 append :linked_files, 'config/database.yml', 'config/master.key'
 
 # Default value for linked_dirs is []
-append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'public/system'
+append(
+  :linked_dirs,
+  'log',
+  'tmp/pids',
+  'tmp/cache',
+  'public/system',
+  'public/uploads'
+)
 
 # Default value for default_env is {}
 set :default_env, { path: '/opt/ruby/bin:$PATH' }
