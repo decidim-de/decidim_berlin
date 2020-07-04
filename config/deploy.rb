@@ -1,5 +1,5 @@
 # config valid for current version and patch releases of Capistrano
-lock '~> 3.12.1'
+lock '~> 3.14.1'
 
 set :application, 'decidim_berlin'
 set :repo_url, 'git@github.com:decidim-de/decidim_berlin.git'
